@@ -1,9 +1,71 @@
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CMS</title>
-  <link rel="stylesheet" title="default" href="styles.css">
-  <script></script>
-</head>
-<body>
-</body>
+	<head>
+	  <meta charset="utf-8">
+	  <title>Timetable Scheduling</title>
+	  <link rel="stylesheet" title="default" href="styles.css">
+	  <script></script>
+	</head>
+	<body>
+		<nav>
+			<div>
+				<a class="navicon" id="profile" href="/messages" title="profile"></a>
+				<a class="navicon" id="msg" href="/profile" title="messages"></a>
+				<a class="navicon" id="logout" href="/logout" title="logout"></a>
+			</div>
+			<span id="userName">johnsmith12<span>
+			<h1>View</h1>
+			<ul>
+				<li><a href="#">View Timetable</a></li>
+				<li><a href="#">link</a></li>
+				<li><a href="#">link</a></li>
+				<li><a href="#">link</a></li>
+			</ul>
+			<h1>Modify</h1>
+			<ul>
+				<li><a href="#">Add Module</a></li>
+				<li><a href="#">Add Lab</a></li>
+				<li><a href="#">Add Meeting</a></li>
+			</ul>
+			<h1>Groups</h1>
+			<ul>
+				<li><a href="#">View Groups</a></li>
+				<li><a href="#">Create Group</a></li>
+				<li><a href="#">Join Group</a></li>
+			</ul>
+			<footer>
+				<div><a id="about">about</a><a id="help">help</a></div>
+				<div>&copy;blah 2014</div>
+			</footer>
+		</nav>
+		<section class="main">
+			<h1>Timetable for this week</h1>
+			<table>
+				<tr><th></th><th>9:00</th><th>10:00</th><th>11:00</th><th>12:00</th><th>13:00</th><th>14:00</th><th>15:00</th><th>16:00</th><th>17:00</th></tr>
+				<tr><th>Mon</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><th>Tue</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><th>Wed</th><td>CS1234, G04</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><th>Thu</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				<tr><th>Fri</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+				 <caption>Week 4, 23/23/1234 to 12/12/1234</caption>
+			</table>
+			<h1>Add Meeting</h1>
+			<form>
+				<label for="date">Date:</label>
+				<input type="date" name="date" id="date"  required="required"><br>
+				<label for="select">Group:</label>
+				<select id="select">
+					<option value="volvo">Computer Science 2014</option>
+					<option value="saab">x</option>
+					<option value="mercedes">y</option>
+					<option value="audi">z</option>
+				</select><br>
+				<label for="formText">Meeting Name:</label>
+				<input type="text" name="text" id="formtext" required="required"><br>
+				<label for="venueText">Venue:</label>
+				<input type="text" name="text" id="venuetext" required="required"><br>
+				<label for="submit">Submit:</label>
+				<input type="submit" id="submit">
+			</form>
+		</section>
+	</body>
+</html>
