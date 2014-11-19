@@ -1,0 +1,48 @@
+Requirement Analysis
+Requirement Elicitation:
+•	Opportunity/Needs: 
+o	Our software aims to solve issues regarding organising timetabled events within a University. 
+•	Justification: 
+o	There exists no truly reliable timetable for both lecturers and students.
+•	Scope: 
+o	Timetable Management / Event Scheduling
+•	Major Constraints: 
+o	The system must be generic enough to be deployed in any educational institution. ‘Main’ Timetables must be used as the starting basis for each timetable(this can then be personalised by each individual)
+•	Major Functionality: 
+o	Allow students/lecturers to schedule meetings with each other so that their timetables will not clash.
+•	User Characteristics:  
+o	Students/Lecturers.  Basic IT knowledge.  
+•	Success Factor: 
+o	On completion of this software project, a user must be able to schedule meetings within their timetables without any clashes. The system should also allow for personal activities to be added so that each timetable can be personalised. 
+
+
+
+Requirement Analysis
+Priority Class:  
+•	Class 1 = Must be completed, key aspect to the project.
+•	Class 2 = Very important component that we want included in the project. 
+•	Class 3 = Time permitting include this component.
+Functional Requirements
+•	Create a UI that allows the customer to do the following:
+o	Allow users to search for an appropriate meeting time with another user or users. Priority Class = 1.
+o	Allow users to modify ‘main’ timetable by adding a planned timetable event (eg: new tutorial) that will be part of the user’s weekly timetable. Priority Class = 1.
+o	Allow users to modify ‘main’ timetable by adding an unplanned event (eg: appointment). Priority Class = 1.
+o	Allow admin users to enter master timetables for student groups. Priority Class = 1.
+o	Allow users to search for a particular group eg: Computer Science Group. Priority Class = 2.
+o	Allow users to choose which other users are allowed to query their timetable for a scheduled meeting. Priority Class = 1.
+o	Look up any element of the UI that they do not understand (Help Page). Priority Class = 2.
+•	Create a Database to do the following:
+o	Hold user’s timetable information. Priority Class = 1.
+o	Allow data to be obtained through the UI. Priority Class = 1.
+o	Efficient handling of data. Priority Class = 1.
+•	Provide a notification system that does the following:
+o	Notifies users about a proposed meeting time. Priority Class = 2.
+o	Confirm with users involved in a particular meeting if a meeting is 100% confirmed. Priority Class = 2.
+
+
+
+
+
+Non-functional Requirements
+•	Provide the following within the UI
+o	Allow users to set aside time for private purposes even if it is during a compulsory event (lecture). Priority Class = 3.
