@@ -266,3 +266,12 @@ label{
 	width: 7em;
 	text-align: right;
 }
+/*********/
+/* POPUP */
+/*********/
+div.popup{
+	background: #fff;
+	border-radius: 6px;
+	z-index: 20;
+	box-shadow: 0 2px 6px -1px rgba(0,0,0,0.6);
+}
